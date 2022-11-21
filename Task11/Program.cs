@@ -7,13 +7,12 @@ Console.WriteLine("Для возведения числа А в натураль
 Console.Write("Введите число A: ");
 numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
-            numberB = Convert.ToInt32(Console.ReadLine());
+numberB = Convert.ToInt32(Console.ReadLine());
 
-            result = numberA;
+result = numberA;
 
-            for (int i = 2; i <= numberB; i++)
-            {
-                result *= numberA;
-            }
-
-            Console.WriteLine($"{numberA}^{numberB} = {result}");
+for (int i = 2; i <= numberB; i++)
+{
+result *= numberA;
+}
+Console.WriteLine($"{numberA}^{numberB} = {result}");
